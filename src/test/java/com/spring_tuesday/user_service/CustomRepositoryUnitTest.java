@@ -23,6 +23,9 @@ public class CustomRepositoryUnitTest {
         userEntity.setLastName("Test LN");
 
         UserEntity savedUser = userRepository.save(userEntity);
+
+
+
         assertNotNull(userRepository.customFind(userEntity.getId()));
         assertEquals(savedUser.getUsername(), userRepository.customFind(userEntity.getId()).getUsername());
 

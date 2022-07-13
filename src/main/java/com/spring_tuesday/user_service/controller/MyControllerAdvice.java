@@ -1,4 +1,4 @@
-package com.spring_tuesday.user_service.model;
+package com.spring_tuesday.user_service.controller;
 
 import com.spring_tuesday.user_service.exception.ConstraintViolation;
 import com.spring_tuesday.user_service.exception.UserNotFoundException;
